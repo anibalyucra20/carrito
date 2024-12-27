@@ -8,7 +8,7 @@ include('include/conexion.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ventas</title>
     <link rel="stylesheet" href="plantilla/Admin/vertical/assets/css/bootstrap.min.css" type="text/css">
     <link href="plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
@@ -33,8 +33,8 @@ include('include/conexion.php');
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <?php include("include/modal_frm_reg_usuario.php"); ?>
-                        <h4>Relación de Usuarios</h4>
+                        <h4>Relación de Ventas</h4>
+                        <a href="venta.php" class="btn btn-success">+ Nuevo</a>
                         <div class="card">
                             <div class="card-body">
                                 
